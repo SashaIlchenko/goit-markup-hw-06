@@ -334,13 +334,11 @@
         </div>
         <label for="comments" class="form-label">Коментар</label>
         <textarea name="feedback" placeholder="Введіть текст" id="comments" class="input-feedback"></textarea>
-        <div class="checkbox-wrapper">
-          <svg class="custom-checkbox-icon" width="16" height="15">
-            <use class="icon-checked" href="./images/icons.svg#icon-check"></use>
-          </svg> <input type="checkbox" name="User_policy" id="policy" required
-            class="input-checkbox visually-hidden" /><label for="policy" class="policy-label">Погоджуюся з розсилкою та
-            приймаю <a href="#" class="contract">Умови договору</a></label>
-        </div>
+        <input class="input-checkbox" type="checkbox" name="User_policy" id="policy" required /><label for="policy"
+          class="policy-label"><span class="checked-icon"><svg class="custom-checkbox-icon" width="16" height="15">
+              <use class="icon-checked" href="./images/icons.svg#icon-check"></use>
+            </svg></span>Погоджуюся з розсилкою та
+          приймаю&nbsp;<a href="#" class="contract">Умови договору</a></label>
         <button type="submit" class="form-button button buttons">Відправити</button>
 
       </form>
